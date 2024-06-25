@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 10px 20px;
+}
+
+header .logo {
+    width: 100px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.sedes {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.sedes h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sede {
+    margin-bottom: 40px;
+}
+
+.sede h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.sede p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.gallery {
+    display: flex;
+    gap: 10px;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #2d2d2d;
+    color: white;
+}
+
+footer .contact, footer .social-media {
+    width: 45%;
+}
+
+footer h2 {
+    margin-top: 0;
+}
+
+footer .social-media a {
+    margin-right: 10px;
+}
