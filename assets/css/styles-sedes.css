@@ -76,21 +76,12 @@ main {
 }
 
 footer {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: #2d2d2d;
-    color: white;
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
 }
 
-footer .contact, footer .social-media {
-    width: 45%;
-}
-
-footer h2 {
-    margin-top: 0;
-}
-
-footer .social-media a {
-    margin-right: 10px;
+footer .social-media a img {
+    width: 30px;
+    margin: 0 10px;
 }
